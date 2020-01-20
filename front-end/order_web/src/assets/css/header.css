@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #fff;
+    /* border: 2px solid rgba(0, 0, 0, .125); */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* .navbar:hover {
+    box-shadow: 5px 5px 5px 5px #fbfafa;
+} */
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    transition: transform .2s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.25);
+    border: 1px solid #3F51B5;
+}
+
+.navbar-brand span {
+    margin-left: 5px;
+}
+
+.mr-auto a {
+    border-bottom: 2px solid transparent;
+}
+
+span {
+    font-size: 15px;
+}
+
+.mr-auto a:hover span {
+    color: #3F51B5;
+}
+
+.navbar-collapse {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav-sign a {
+    border-bottom: 2px solid transparent;
+    padding-top: 3vh;
+    height: 8vh;
+}
+
+.nav-sign a:hover {
+    border-bottom: 4px solid #0288d1;
+    text-decoration: none;
+}
+
+.nav-sign a:hover span {
+    color: #0288d1;
+}
+
+.nav-sign>a {
+    text-decoration: none;
+    color: #252525 !important;
+    /* font-weight: bold; */
+}
+
+.dropdown-item {
+    font-weight: bold;
+    text-decoration: none;
+    color: #5f87d7 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #dee2e6;
+}
+
+.dropdown-item:active {
+    background: none;
+}
+
+.dropdown>a>img {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+    border: none;
+    transition: transform .2s;
+}
+
+.dropdown>a {
+    color: #5f87d7 !important;
+}
+
+.dropdown>a:hover {
+    color: #3F51B5 !important;
+}
+
+.dropdown>a>img:hover {
+    transform: scale(1.25);
+}
+
+.container-header {
+    color: black;
+    margin-bottom: 0px !important
+}
+
+.navbar-logo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 8vh;
+}
+
+.navbar-header {
+    padding: 0px
+}
+
+.badge {
+    margin-right: 15px
+}
+
+@media(max-width: 992px) {
+
+    .nav-sign a {
+        height: auto;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .nav-sign>a {
+        vertical-align: sub;
+        height: 10vh;
+    }
+
+}
+
+.avatar-user {
+    margin-right: 45px
+}

@@ -1,0 +1,124 @@
+.list-menu-height {
+    vertical-align: middle;
+}
+
+.list-menu-span {
+    margin-left: 10px;
+}
+
+.button-action-calculator {
+    background-color: #da2a4d !important;
+    pointer-events: auto;
+}
+
+.button-action-calculator:hover {
+    background-color: #9a0926 !important;
+}
+
+.pagination>li>a {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+
+.pagination>li>a:hover {
+    background-color: #007bff !important;
+}
+
+.pagination-float {
+    float: right;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.i-fa-2x {
+    font-size: 1.5em !important;
+    vertical-align: inherit;
+    float: right;
+    color: #b6bdc3;
+}
+
+.thead-table-menu {
+    color: #212529 !important;
+    display: inline !important;
+}
+
+.vertical-align {
+    vertical-align: middle !important;
+}
+
+.pagination {
+    float: right !important;
+}
+
+.padding-bottom {
+    padding-top: 0px !important;
+}
+
+.react-datepicker-wrapper>.react-datepicker__input-container>.full-width {
+    width: 100%;
+}
+
+.col-3>.react-datepicker-wrapper>.react-datepicker__input-container {
+    width: 100%;
+}
+
+.margin-bottom-input {
+    margin-bottom: 20px;
+}
+
+.rest-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.float-right {
+    float: right;
+}
+
+
+.pagination>.active>a {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination>li>a:hover {
+    background-color: #096eda;
+    color: white;
+}
+
+.margin-bottom-list-product {
+    margin-bottom: 30px;
+}
+
+.background-color-datimepicker {
+    background-color: white;
+}
+
+@media (max-width: 550px) {
+    .table th {
+        padding: 0px !important;
+    }
+
+    .table td {
+        padding: 0px !important;
+    }
+
+    .pagination {
+        font-size: xx-small;
+    }
+}
+
+.width-button-back {
+    width: 100px;
+    float: right;
+}
